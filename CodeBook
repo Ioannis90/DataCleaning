@@ -67,3 +67,18 @@ The dataset includes:
 "66" "fbodybodygyromagstd     
 "67" "fbodybodygyrojerkmagmean
 "68" "fbodybodygyrojerkmagstd 
+
+To decode the dataset please consider the following:
+
+Mag = magnitude
+Body = body
+t = time
+Acc = accelerometer
+Gyro = gyroscope
+f = frequency
+Std = standard deviation
+X = x-axis
+Y = y-axis
+Z = z-axis
+Mean = mean value
+Gravity = gravity
