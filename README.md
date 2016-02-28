@@ -10,3 +10,5 @@ The run_analysis.R script does the following
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 To run the script the user must download the dataset (link given above) and save it to the working directory.
+
+The CodeBook file is a document that includes the variables of the dataset.
