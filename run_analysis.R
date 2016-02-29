@@ -35,4 +35,4 @@ aggrdata <- aggregate(datafinal[, 3:ncol(datafinal)],
                        by=list(subject = datafinal$subject, 
                                label = datafinal$label),
                        mean)
-write.table(format(aggrdata, scientific=T), "tidydata.txt")
+write.table(format(aggrdata, scientific=T), "tidydata.txt",row.name=FALSE)
